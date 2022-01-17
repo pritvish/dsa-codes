@@ -59,6 +59,7 @@ public class StackArrayImpl implements Stack {
         }
     }
 
+    // checks if the stack is empty
     public boolean isEmpty() {
         return top == -1;
     }
