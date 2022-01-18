@@ -65,7 +65,7 @@ public class StackArrayImpl implements Stack {
     }
 }
 
-class Driver {
+class StackArrayImplDriver {
     public static void main(String[] args) throws Exception {
         Stack s = new StackArrayImpl(5);
         s.push(4);
